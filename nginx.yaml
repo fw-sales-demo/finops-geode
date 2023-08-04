@@ -38,7 +38,7 @@ spec:
               cpu: 1000m
               memory: 1G
           securityContext:
-            allowPrivilegeEscalation: true
+            allowPrivilegeEscalation: false
             privileged: false
             readOnlyRootFilesystem: true
             runAsNonRoot: true
